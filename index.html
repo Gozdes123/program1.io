@@ -5,35 +5,389 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css'
+    integrity='sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=='
+    crossorigin='anonymous' />
+  <link rel="stylesheet" href="/0525/work/nav.css">
   <title>Document</title>
-  <style>
-    /*    display: flex;
-      justify-content: center;-->搭配FLEX 水平置中
-      align-items: center --->搭配FLEX 垂直置中 */
-    .container {
-      height: 600px;
-      width: 600px;
-      background-color: pink;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .box {
-      background-color: red;
-      height: 100px;
-      width: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="box">hello<br>hello</div>
+  <!-- head container定位用 -->
+  <div id="head" class="container clearfix">
+    <!-- nav info-->
+    <div id="nav-info" class="container clearfix">
+      <div class="container2">
+        <div class="addr">326桃園市楊梅區幼獅路二段3號</div>
+        <div class="donate"><a href="#" class="btn">Donate</a></div>
+        <div class="register">
+          <ul>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="">Rigester</a></li>
+            <li><a href="">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- nav -->
+    <nav class="container clearfix">
+      <div class="container2">
+        <div class="logo"><i class="fa-brands fa-google"></i></div>
+        <div class="menu">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">FEATURES</a></li>
+            <li><a href="">EVENTS</a></li>
+            <li><a href="">SERMONS</a></li>
+            <li><a href="">GALLRY</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header class="container clearfix"></header>
+    <!-- addition -->
+    <div id="addtion" class="container clearfix">
+      <div class="container2">
+        <div class="col-6">
+          <div class="col-2">
+            <i class="fa-solid fa-calendar-check"></i>
+          </div>
+          <div class="col-10">
+            <p>Tuesday,8:00AM S5:00Pm</p>
+            <p>Christian Leadership Seminar</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="col-1">
+            <a href="#" class="btn3"></a>
+          </div>
+          <div class="col-5">
+            <p><i class="fa-solid fa-location-dot"></i> Public School12 Kennedy St.New York,United States</p>
+          </div>
+          <div class="col-5">
+            <a href="#" class="btn2">READMORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- feature -->
+  <div id="feature" class="container clearfix">
+    <div class="container2">
+      <div class="col-7">
+        <div class="col-12">
+          <div class="col-2"></div>
+          <h2 class="line">WHY OUR CHURCH</h2>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-10">
+          <h3>We are a church that believes in Jesus, a church that loves God and people</h3>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum totam placeat quaerat dolor, adipisci
+            mollitia commodi possimus ut nulla quos ad quas sint aperiam repellat ducimus ex. Inventore, veritatis
+            atque.
+          </p>
+          <a href="#" class="btn">MORE</a>
+        </div>
+      </div>
+      <div class="col-5">
+        <img src="home.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- community -->
+  <div id="community" class="container clearfix">
+    <div class="container2">
+      <!-- (.col-4>(h2{Our Community}+p{lorem}+a.btn{MORE}))*3 -->
+      <div class="col-4">
+        <h2>Our Community</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus tempore, illum blanditiis nam
+          adipisci architecto impedit laboriosam. Totam ex voluptatibus doloribus officia vitae sapiente,
+          perferendis consequatur rerum voluptate numquam
+          asperiores.</p>
+        <a href="" class="btn">MORE</a>
+      </div>
+      <div class="col-4">
+        <h2>Our Community</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus tempore, illum blanditiis nam
+          adipisci architecto impedit laboriosam. Totam ex voluptatibus doloribus officia vitae sapiente,
+          perferendis consequatur rerum voluptate numquam
+          asperiores.
+        </p>
+        <a href="" class="btn">MORE</a>
+      </div>
+      <div class="col-4">
+        <h2>Our Community</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quod! Perferendis vitae
+          voluptatem maiores quae, mollitia laboriosam, rem, totam iste itaque recusandae laudantium
+          repellendus harum soluta amet aliquid voluptas odio.</p>
+        <a href="" class="btn">MORE</a>
+      </div>
+    </div>
+  </div>
+  <!-- gallery  -->
+  <div id="gallery" class="container clearfix">
+    <div class="container2 clearfix">
+      <div class="col-7">
+        <div class="col-2"></div>
+        <h2 class="line">FROM THE GALLERY</h2>
+      </div>
+    </div>
+    <div class="container2 clearfix">
+      <div class="col-4"><img src="https://source.unsplash.com/random/300x630" alt=""></div>
+      <div class="col-8 nopa">
+        <div class="col-6"><img src="https://source.unsplash.com/random/400x300?sig=1"></div>
+        <div class="col-6"><img src="https://source.unsplash.com/random/400x300?sig=2"></div>
+        <div class="col-6"><img src="https://source.unsplash.com/random/400x300?sig=3"></div>
+        <div class="col-6"><img src="https://source.unsplash.com/random/400x300?sig=4"></div>
+      </div>
+    </div>
+  </div>
+  <!-- upcoming -->
+  <div id="upcoming" class="container clearfix">
+    <div class="container2 clearfix">
+      <div class="col-7">
+        <div class="col-2"></div>
+        <h2 class="line-light" style="color:white;">UPCOMING EVENTS</h2>
+      </div>
+    </div>
+
+    <div class="container2 clearfix">
+      <div class="col-1">
+        <div class="date">
+          <div class="day">23<br>Nov'18</div>
+        </div>
+
+      </div>
+      <div class="col-11">
+        <div class="content">
+          <div class="title" style="border-right: 1px solid #fff;">
+            <h2>Sheepdog Safety Training</h2>
+          </div>
+          <i class="far fa-clock" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="time" style="border-right: 1px solid #fff;">
+            <p>Friday, @ 8:00 am</p>
+            <p>Thurday, @ 4:00 am</p>
+          </div>
+          <i class="fas fa-map-marker-alt" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="addr">
+            <p>Local Church 233 Main St.</p>
+            <p>New York, United States</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2 clearfix">
+      <div class="col-1">
+        <div class="date">
+          <div class="day">23<br>Nov'18</div>
+        </div>
+
+      </div>
+      <div class="col-11">
+        <div class="content">
+          <div class="title" style="border-right: 1px solid #fff;">
+            <h2>Sheepdog Safety Training</h2>
+          </div>
+          <i class="far fa-clock" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="time" style="border-right: 1px solid #fff;">
+            <p>Friday, @ 8:00 am</p>
+            <p>Thurday, @ 4:00 am</p>
+          </div>
+          <i class="fas fa-map-marker-alt" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="addr">
+            <p>Local Church 233 Main St.</p>
+            <p>New York, United States</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2 clearfix">
+      <div class="col-1">
+        <div class="date">
+          <div class="day">23<br>Nov'18</div>
+        </div>
+
+      </div>
+      <div class="col-11">
+        <div class="content">
+          <div class="title" style="border-right: 1px solid #fff;">
+            <h2>Sheepdog Safety Training</h2>
+          </div>
+          <i class="far fa-clock" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="time" style="border-right: 1px solid #fff;">
+            <p>Friday, @ 8:00 am</p>
+            <p>Thurday, @ 4:00 am</p>
+          </div>
+          <i class="fas fa-map-marker-alt" style="margin: 0 20px;"></i>&emsp;&emsp;
+          <div class="addr">
+            <p>Local Church 233 Main St.</p>
+            <p>New York, United States</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- blog  -->
+  <div id="blog" class="container clearfix">
+    <div class="container2 clearfix">
+      <div class="col-7">
+        <div class="col-2"></div>
+        <h2 class="line">FROM THE BLOG</h2>
+      </div>
+    </div>
+
+    <div class="container2 clearfix">
+      <div class="col-4">
+        <div class="pic">
+          <img src="http://source.unsplash.com/random/366x247" alt="">
+          <div class="date">
+            <div class="day">02<br>Jun,20</div>
+          </div>
+        </div>
+        <h3><a href="#">Walking Towards God</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna…</p>
+        <a href="#" class="btn">MORE</a>
+      </div>
+      <div class="col-4">
+        <div class="pic">
+          <img src="http://source.unsplash.com/random/366x247" alt="">
+          <div class="date">
+            <div class="day">02<br>Jun,20</div>
+          </div>
+        </div>
+        <h3><a href="#">Walking Towards God</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna…</p>
+        <a href="#" class="btn">MORE</a>
+      </div>
+      <div class="col-4">
+        <div class="pic">
+          <img src="http://source.unsplash.com/random/366x247" alt="">
+          <div class="date">
+            <div class="day">02<br>Jun,20</div>
+          </div>
+        </div>
+        <h3><a href="#">Walking Towards God</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna…</p>
+        <a href="#" class="btn">MORE</a>
+      </div>
+    </div>
+
+    <!-- PASTOR   -->
+    <div id="pastor" class="container clearfix">
+      <div class="container2 clearfix">
+        <div class="col-7">
+          <div class="col-12 clearfix">
+            <div class="col-2"></div>
+            <h2 class="line-light" style="color:white;">PASTER</h2>
+          </div>
+          <div class="col-4">
+            <img src="http://source.unsplash.com/random/366x247" alt="">
+          </div>
+          <div class="col-8">
+            <h3>“One thing I ask of the Lord”</h3>
+            <p>This is what I seek: that I may dwell in the house of the Lord all the days of my life, to gaze upon the
+              beauty of the
+              Lord and to seek him in his temple. Taste and see that the Lord is good; blessed is the man who takes
+              refuge in him. The
+              Lord is everlasting God, the creator of all the ends of the earth.
+              John McCowey</p>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="col-12 clearfix leftlight">
+            <div class="col-3"></div>
+            <h2 class="line-light2" style="color:white;"> PASTER</h2>
+          </div>
+          <div id="col12" class="col-12">
+            <div class="col-2 col"><i class="fa-solid fa-play"></i>
+            </div>
+            <div class="col-10">
+              <p>HOLY SPIRIT: STRATEGIC THINKING</p>
+            </div>
+            <div class="col0">
+              <p class="name">
+                <font>By</font>
+                <font color="#ff6a48">Wilson</font>
+              </p>
+            </div>
+          </div>
+          <div id="col12" class="col-12">
+            <div class="col-2 col"><i class="fa-solid fa-play"></i>
+            </div>
+            <div class="col-10">
+              <p>HOLY SPIRIT: STRATEGIC THINKING</p>
+            </div>
+            <div class="col0">
+              <p class="name">
+                <font>By</font>
+                <font color="#ff6a48">Wilson</font>
+              </p>
+            </div>
+          </div>
+          <div id="col12" class="col-12">
+            <div class="col-2 col"><i class="fa-solid fa-play"></i>
+            </div>
+            <div class="col-10">
+              <p>HOLY SPIRIT: STRATEGIC THINKING</p><br>
+            </div>
+            <div class="col0">
+              <p class="name">
+                <font>By</font>
+                <font color="#ff6a48">Wilson</font>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- New Here  -->
+    <div id="newhere" class="container">
+      <div class="container2">
+        <div class="col-9 clearfix">
+          <font color="white" class="font1"><i class="fa-solid fa-person"></i></font>
+          <font color="white" class="font2">New Here?</font>
+          <font color="white" class="font3">Find out how, where and when we worship. We hope to see you soon!!</font>
+        </div>
+        <div class="col-3">
+          <a href="#" class="btn4">JOIN A GROUP</a>
+        </div>
+      </div>
+    </div>
+    <!-- map  -->
+    <div id="map" class="container">
+      <div class="container">
+        <!-- 地圖 -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14471.665767091014!2d121.1824813!3d24.9349163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1653460827111!5m2!1szh-TW!2stw"
+          width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <!-- footer  -->
+    <footer class="container clearfix">
+      <div class="container2">
+        <div class="col-8">
+          <font color="orange">AncoraThemes</font>
+          <font color="gray"> © 2022 All Rights Reserved</font>
+
+        </div>
+        <div class="col-4">
+          <a href="https://twitter.com/themes_ancora"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/AncoraThemes/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/ancora_themes/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.behance.net/ancorathemes"><i class="fab fa-behance"></i></a>
+          <a href="https://dribbble.com/AncoraThemes"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
